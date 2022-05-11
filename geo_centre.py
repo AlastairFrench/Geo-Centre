@@ -46,10 +46,3 @@ df.head()
 #save as csv 
 df.to_csv(path.join(DATA_DIR, 'geo_uk_pop_latlng.csv'))
 
-#in excel I was then able to towns at which 50% of the population was above or below them for both the lat and long
-#therefore creating a box at which the centre of the population of the UK was
-#This can be repeated for any area where you have the name and population data for
-#However it does assume that a towns population is evenly distributed around it and that all smaller towns not included in the list are evenly distributed across the country
-
-
-
